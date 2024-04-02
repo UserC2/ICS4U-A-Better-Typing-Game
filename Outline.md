@@ -15,7 +15,18 @@
 * The player's view scrolls up as they jump to new branches.
 * Each branch displays a word above it.
 
-TODO: describe what character entry looks like
+### Character Entry
+* A cursor (highlighted background for one character) starts at the first character of the word for the set of branches immediately above the player.
+* The cursor changes according to events:
+  * Keyboard input matches both branches
+    * Branch cursor turns green then moves to the next character for both branches
+  * Keyboard input matches one branch
+    * Non-matching branch cursor stays grey
+    * Matching branch cursor turns green then moves to the next character
+  * Keyboard input doesn't match any branches
+    * The cursor for both branches turns red and does not advance.
+  * Backspace key is received:
+    * Cursor turns grey then moves back one character (doesn't move if at start of word)
 
 ### UI Elements
 * Current height (branches jumped * 1 meter).
