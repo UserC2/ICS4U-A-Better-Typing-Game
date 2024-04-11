@@ -1,5 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://cmf6sk8wt8g4t"]
+[gd_scene load_steps=3 format=3 uid="uid://cmf6sk8wt8g4t"]
 
+[ext_resource type="FontFile" uid="uid://c5d1o4iwvayq7" path="res://Roboto_Mono/RobotoMono-VariableFont_wght.ttf" id="1_4erby"]
 [ext_resource type="Script" path="res://getypedkeys.gd" id="1_egq8v"]
 
 [node name="Node2D" type="Node2D"]
@@ -9,4 +10,13 @@ offset_left = 218.0
 offset_top = 202.0
 offset_right = 258.0
 offset_bottom = 242.0
+auto_translate = false
+localize_numeral_system = false
+theme_override_fonts/mono_font = ExtResource("1_4erby")
+bbcode_enabled = true
+text = "[code][bgcolor=red]incorrect_pattern[/bgcolor][/code]"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+shortcut_keys_enabled = false
 script = ExtResource("1_egq8v")
