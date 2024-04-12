@@ -1,22 +1,28 @@
-[gd_scene load_steps=3 format=3 uid="uid://cmf6sk8wt8g4t"]
+[gd_scene load_steps=4 format=3 uid="uid://cmf6sk8wt8g4t"]
 
 [ext_resource type="FontFile" uid="uid://c5d1o4iwvayq7" path="res://Roboto_Mono/RobotoMono-VariableFont_wght.ttf" id="1_4erby"]
-[ext_resource type="Script" path="res://getypedkeys.gd" id="1_egq8v"]
+[ext_resource type="Script" path="res://pattern_handler.gd" id="2_3wgam"]
 
-[node name="Node2D" type="Node2D"]
+[sub_resource type="CanvasTexture" id="CanvasTexture_44tng"]
+
+[node name="Branch" type="Node2D"]
+position = Vector2(80, 52)
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
-offset_left = 218.0
-offset_top = 202.0
-offset_right = 258.0
-offset_bottom = 242.0
+offset_left = -50.0
+offset_top = -45.0
+offset_right = 50.0
+offset_bottom = -15.0
 auto_translate = false
 localize_numeral_system = false
 theme_override_fonts/mono_font = ExtResource("1_4erby")
 bbcode_enabled = true
-text = "[code][bgcolor=red]incorrect_pattern[/bgcolor][/code]"
 fit_content = true
 scroll_active = false
 autowrap_mode = 0
 shortcut_keys_enabled = false
-script = ExtResource("1_egq8v")
+script = ExtResource("2_3wgam")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(100, 30)
+texture = SubResource("CanvasTexture_44tng")
