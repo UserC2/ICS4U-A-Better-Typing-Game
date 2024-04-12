@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://bdsaxwr427ey7"
-path="res://.godot/imported/RobotoMono-SemiBold.ttf-1a4a5d8024089b2c080b388209e3fdd4.fontdata"
+uid="uid://c1fnnrull4iuk"
+path="res://.godot/imported/RobotoMono-Regular.ttf-97680456603075a80bb69c2d596f008a.fontdata"
 
 [deps]
 
-source_file="res://Roboto_Mono/static/RobotoMono-SemiBold.ttf"
-dest_files=["res://.godot/imported/RobotoMono-SemiBold.ttf-1a4a5d8024089b2c080b388209e3fdd4.fontdata"]
+source_file="res://Resources/Roboto_Mono/static/RobotoMono-Regular.ttf"
+dest_files=["res://.godot/imported/RobotoMono-Regular.ttf-97680456603075a80bb69c2d596f008a.fontdata"]
 
 [params]
 

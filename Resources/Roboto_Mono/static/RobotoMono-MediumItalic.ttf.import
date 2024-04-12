@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://bbfn1ygcyvpjs"
-path="res://.godot/imported/RobotoMono-BoldItalic.ttf-d677d8b70f80a3ff1878651ba537e866.fontdata"
+uid="uid://bt5bbqpmlbtrg"
+path="res://.godot/imported/RobotoMono-MediumItalic.ttf-2c220ad4e41a34a276f34bf07e15ee3f.fontdata"
 
 [deps]
 
-source_file="res://Roboto_Mono/static/RobotoMono-BoldItalic.ttf"
-dest_files=["res://.godot/imported/RobotoMono-BoldItalic.ttf-d677d8b70f80a3ff1878651ba537e866.fontdata"]
+source_file="res://Resources/Roboto_Mono/static/RobotoMono-MediumItalic.ttf"
+dest_files=["res://.godot/imported/RobotoMono-MediumItalic.ttf-2c220ad4e41a34a276f34bf07e15ee3f.fontdata"]
 
 [params]
 
