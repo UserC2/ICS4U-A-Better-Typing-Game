@@ -36,7 +36,6 @@ func _input(event):
 			else:
 				print("reached end of pattern")
 				# later: shake label on invalid input
-		print(is_complete())
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
